@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "SEOUL",
+    "weather": "Ensoleillé",
+    "temperature": 22.0,
+    "updatedAt": "2026-10-09T15:00:00Z"
+  },
+  {
+    "id": 2,
+    "name": "TOKYO",
+    "weather": "Peu nuageux",
+    "temperature": 19.5,
+    "updatedAt": "2026-10-09T13:30:00Z"
+  },
+  {
+    "id": 3,
+    "name": "PARIS",
+    "weather": "Pluvieux",
+    "temperature": 14.2,
+    "updatedAt": "2026-10-09T09:15:00Z"
+  },
+  {
+    "id": 4,
+    "name": "NEW YORK",
+    "weather": "Brumeux",
+    "temperature": 16.8,
+    "updatedAt": "2026-10-08T20:00:00Z"
+  }
+]
