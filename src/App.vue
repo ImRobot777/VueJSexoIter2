@@ -1,16 +1,16 @@
 <script setup>
-  import {ref} from 'vue'
+import {ref} from 'vue'
 
-  /*
-  const h1Title =  ref('Hello World!')
-  const h2Title =  ref("What's UP !")
-  const inputText = ref("Ecrire ici")
-  const isCheckBoxChecked = ref(false)
-  const isImageVisible = ref(false)
-  const mettreAJour = () => {
-    h1Title.value = inputText.value;
-  }
-  */
+/*
+const h1Title =  ref('Hello World!')
+const h2Title =  ref("What's UP !")
+const inputText = ref("Ecrire ici")
+const isCheckBoxChecked = ref(false)
+const isImageVisible = ref(false)
+const mettreAJour = () => {
+  h1Title.value = inputText.value;
+}
+*/
 </script>
 
 <!--template>
@@ -25,12 +25,12 @@
 </template-->
 
 <template>
-  <router-view />
   <router-link to="/villes">Voir les villes</router-link>
+  <router-view/>
 </template>
 
 <style>
-  .redClass {
-    color: red;
-  }
+.redClass {
+  color: red;
+}
 </style>
