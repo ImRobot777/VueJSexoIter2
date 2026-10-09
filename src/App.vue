@@ -1,6 +1,5 @@
 <script setup>
 import {ref} from 'vue'
-import CitiesList from './views/CitiesList.vue'
 
 /*
 const h1Title =  ref('Hello World!')
@@ -12,9 +11,7 @@ const mettreAJour = () => {
   h1Title.value = inputText.value;
 }
 */
-const onListClick = () => {
-  alert("YOOOOOOOO !")
-}
+
 
 </script>
 
@@ -30,8 +27,8 @@ const onListClick = () => {
 </template-->
 
 <template>
-  <CitiesList />
-  <a href="#" @click.prevent="onListClick">Voir les villes</a>
+  <router-view />
+  <router-link to="/villes">Voir les villes</router-link>
 </template>
 
 <style>
