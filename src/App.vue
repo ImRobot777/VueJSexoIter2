@@ -25,12 +25,12 @@ const mettreAJour = () => {
 </template-->
 
 <template>
-  <router-link to="/villes">Voir les villes</router-link>
-  <router-view/>
+   <router-link to="/villes">Voir les villes</router-link>
+   <router-view/>
 </template>
 
 <style>
 .redClass {
-  color: red;
+   color: red;
 }
 </style>

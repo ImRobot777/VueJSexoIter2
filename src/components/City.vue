@@ -9,23 +9,23 @@ dayjs.extend(relativeTime)
 dayjs.locale('fr')
 
 defineProps({
-  name: String,
-  weather: String,
-  temperature: Number,
-  updatedAt: Date
+   name: String,
+   weather: String,
+   temperature: Number,
+   updatedAt: Date
 })
 </script>
 
 <template>
 
-  <h2>{{ name }}</h2>
-  <ul>
-    <li>{{ weather }}</li>
-    <li>{{ temperature }}°C</li>
-    <li>{{ dayjs(updatedAt).fromNow() }}</li>
-  </ul>
+   <h2>{{ name }}</h2>
+   <ul>
+      <li>{{ weather }}</li>
+      <li>{{ temperature }}°C</li>
+      <li>{{ dayjs(updatedAt).fromNow() }}</li>
+   </ul>
 
-  <!--ON DANS CITY-->
+   <!--ON DANS CITY-->
 
 </template>
 
